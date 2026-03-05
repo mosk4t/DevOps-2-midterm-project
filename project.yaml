@@ -1,3 +1,31 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: midterm-html
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Midterm Project</title>
+        <style>
+            body { background-color: #1e1e2e; color: #cdd6f4; font-family: 'Courier New', Courier, monospace; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+            .container { text-align: center; border: 2px solid #89b4fa; padding: 40px; border-radius: 10px; background-color: #313244; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+            h1 { color: #a6e3a1; }
+            h2 { color: #89b4fa; }
+            .status { margin-top: 20px; font-weight: bold; color: #f38ba8; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1> Data Platform Infrastructure </h1>
+            <h2>Student: Maksat (3 course)</h2>
+            <p>Architecture: Kubernetes + Nginx + Ingress + Security</p>
+            <div class="status">Система отказоустойчива и защищена.</div>
+        </div>
+    </body>
+    </html>
 ---
 apiVersion: apps/v1
 kind: Deployment
