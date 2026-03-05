@@ -19,7 +19,7 @@ data:
     </head>
     <body>
         <div class="container">
-            <h1> Data Platform Infrastructure </h1>
+            <h1> Midterm Project DevOps 2 </h1>
             <h2>Student: Maksat (3 course)</h2>
             <p>Architecture: Kubernetes + Nginx + Ingress + Security</p>
             <div class="status">Система отказоустойчива и защищена.</div>
